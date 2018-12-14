@@ -1,0 +1,32 @@
+{
+  "name": "cps_tool",
+  "version": "1.0.1",
+  "description": "前端小工具：校验wxml文件里image是否有加压缩规则",
+  "main": "index.js",
+  "bin": {
+    "cps_tool": "./bin/cps.js"
+  },
+  "dependencies": {
+    "colors": "^1.3.3",
+    "commander": "^2.19.0",
+    "fs-extra": "^7.0.1",
+    "glob": "^7.1.3",
+    "lodash": "^4.17.11",
+    "shelljs": "^0.8.3",
+    "string": "^3.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "cps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@gitlab.yit.com:10022/qinyuchen/yit_compress_tool.git"
+  },
+  "keywords": [
+    "compress",
+    "tool"
+  ],
+  "author": "178431581@qq.com",
+  "license": "ISC"
+}
